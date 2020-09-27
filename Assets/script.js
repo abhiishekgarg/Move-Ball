@@ -45,7 +45,7 @@ function key(keyPress) {
 
 };
 
-window.addEventListener("keypress", function (event) 
+window.addEventListener("keydown", function (event) 
 {
     key(event.key)
 });
